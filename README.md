@@ -6,9 +6,9 @@ This is a AWS Lambda function written in Kotlin to implement basic arithmetic op
 
 clone repository
 
-> gh repo clone sauravdwivedi/DNB
+> gh repo clone sauravdwivedi/AWS-Lambda
 
-cd to app directory DNB/BasicArithmeticOperations, and run
+cd to app directory AWS-Lambda/BasicArithmeticOperations, and run
 
 > ./gradlew shadowJar
 
