@@ -1,6 +1,8 @@
 #### Project Description
 
-This is a AWS Lambda function written in Kotlin to implement basic arithmetic operations such as "ADD", "SUBTRACT", "MULTIPLY", "DIVIDE".
+This is a Kotlin application with [Gradle](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html) to implement basic arithmetic operations such as "ADD", "SUBTRACT", "MULTIPLY", "DIVIDE". The application is deployed as AWS Lambda function. Lambda function is further turned into an API Gateway with endpoint URL:
+
+> https://emmsqwgcie.execute-api.us-east-1.amazonaws.com/default/arithmetic-operations
 
 #### Compilation
 
