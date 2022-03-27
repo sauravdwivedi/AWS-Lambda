@@ -54,6 +54,6 @@ To generate endpoint, click Add trigger, select "API Gateway", chose "REST API".
 
 > https://emmsqwgcie.execute-api.us-east-1.amazonaws.com/default/arithmetic-operations
 
-#### API Gateway test
+#### API Gateway test using Postman
 
-![API Gateway test](API_Gateway_test.png?raw=true "Title")
+![API Gateway test](Test_Endpoint_Postman.png?raw=true "Title")
