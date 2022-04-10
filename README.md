@@ -10,11 +10,15 @@ clone repository
 
 > gh repo clone sauravdwivedi/AWS-Lambda
 
-cd to app directory AWS-Lambda/BasicArithmeticOperations, and run
+cd to app directory AWS-Lambda/arithops, and run
 
 > ./gradlew shadowJar
 
-Output "jvmlangs-kotlin-1.0-SNAPSHOT-all.jar" is located in build/libs/ .
+Output "arithops-1.0-SNAPSHOT-all.jar" is located in build/libs/ .
+
+#### Test
+
+> ./gradlew check 
 
 #### Create AWS Lambda function
 
@@ -24,11 +28,9 @@ Log in to AWS Lambda Console
 
 Click "Create function", chose "Author from scratch", enter Function name "arithmetic-ops", chose runtime "Java 8", upload "jvmlangs-kotlin-1.0-SNAPSHOT-all.jar" in Code source, and set Handler:
 
-> com.aws.blog.jvmlangs.kotlin.Main::handler
+> Main::handler
 
-#### Test
-
-Test funtion with a JSON request body
+#### Test funtion with a JSON request body
 
 #### Request body example
 
